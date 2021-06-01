@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000099;
+  }
+
+  .menu_container{
+    background-color: #f1f1f1ce;
+    max-width: 25%;
+    width: 50%;
+  }
+
+  .content_container{
+    height: 100%;
+    max-width: 75%;
+    margin-left: 100px;
+  padding-left: 25%;
+  }
+
+  p, h1, h2, h3, h4 {
+    font-family: Arial;
+  }
+
+  p{
+    margin-right: 150px;
+    font-size: 20px;
+  }
+
+ h1{
+   text-align: center;
+   font-size: 40px;
+ }
+
+ h2{
+  font-size: 30px;
+ }
+
+ h3{
+  font-size: 20px;
+ }
+
+ p.school_level{
+   font-size: 18px;
+ }
+
+ hr{
+   width:60%;
+   text-align:left;
+   margin-left:0;
+   border-top: 1px;
+ }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    color: #0099ff;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 20px 10%;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: Arial;
+  }
+  
+  li a.active {
+    background-color: #0000ff;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img.profile{
+    max-width: 320px;
+    max-height: 4267px;
+    width:auto;
+    height: auto;
+  }
+  img.nonic{
+    max-width: 50%;
+    width:auto;
+    height: auto;
+  }
+  img.contracapa{
+    max-width: 70%;
+    width:auto;
+    height: auto;
+  }
+
+  :root{
+    --animate-duration: 2s;
+  }
+
+  p.animate__animated p.animate__slideInUp{
+    --animate-delay: 500s;
+  }
+
+  .container {
+    width: 90%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+  .c {width: 60%; background-color: #2196F3;}
+  .cs {width: 60%; background-color: #2196F3;}
+  .php {width: 40%; background-color: #2196F3;}
+  .sql {width: 40%; background-color: #2196F3;}
+  .firebase {width: 60%; background-color: #2196F3;}
+  .html {width: 80%; background-color: #2196F3;}
+  .css {width: 40%; background-color: #2196F3;}
+  .js {width: 60%; background-color: #2196F3;}
+  .java {width: 80%; background-color: #2196F3;}
+  .kotlin {width: 60%; background-color: #2196F3;}
+  .unity {width: 20%; background-color: #2196F3;}
