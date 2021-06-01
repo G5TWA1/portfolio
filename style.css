@@ -1,42 +1,48 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #00097aa2;
+    background-color: #0044ff;
   }
 
   .menu_container{
     background-color: #f1f1f1ce;
-    max-width: 25%;
-    width: 30%;
+    max-width: 20%;
+    width: 50%;
+    overflow: hidden;
   }
 
   .content_container{
     height: 100%;
-    max-width: 75%;
+    max-width: 80%;
     margin-left: 100px;
-  padding-left: 25%;
+    padding-left: 25%;
   }
 
-  p, h1, h2 {
+  p, h1, h2, h3, h4 {
     font-family: Arial;
+    color: white;
   }
 
   p{
     margin-right: 150px;
     font-size: 20px;
+    color: white;
   }
 
  h1{
    text-align: center;
    font-size: 40px;
+   color: white;
  }
 
  h2{
   font-size: 30px;
+  color: white;
  }
 
  h3{
   font-size: 20px;
+  color: white;
  }
 
  p.school_level{
@@ -59,6 +65,7 @@ body {
     position: fixed;
     height: 100%;
     overflow: auto;
+    color: #0099ff;
   }
   
   li a {
@@ -71,7 +78,7 @@ body {
   }
   
   li a.active {
-    background-color: #00087a;
+    background-color: #0000ff;
     color: white;
   }
   
@@ -102,6 +109,11 @@ body {
     width:auto;
     height: auto;
   }
+  img.contacts{
+    max-width: 30%;
+    width:auto;
+    height: auto;
+  }
 
   :root{
     --animate-duration: 2s;
@@ -112,7 +124,7 @@ body {
   }
 
   .container {
-    width: 100%;
+    width: 90%;
     background-color: #ddd;
   }
   
@@ -123,14 +135,27 @@ body {
     color: white;
   }
 
-  .c {width: 60%; background-color: #2196F3;}
-  .cs {width: 60%; background-color: #2196F3;}
-  .php {width: 40%; background-color: #2196F3;}
-  .sql {width: 40%; background-color: #2196F3;}
-  .firebase {width: 60%; background-color: #2196F3;}
-  .html {width: 80%; background-color: #2196F3;}
-  .css {width: 40%; background-color: #2196F3;}
-  .js {width: 60%; background-color: #2196F3;}
-  .java {width: 80%; background-color: #2196F3;}
-  .kotlin {width: 60%; background-color: #2196F3;}
-  .unity {width: 20%; background-color: #2196F3;}
+  .c {width: 60%; background-color: #c921f3;}
+  .cs {width: 60%; background-color: #c921f3;}
+  .php {width: 40%; background-color: #c921f3;}
+  .sql {width: 40%; background-color: #c921f3;}
+  .firebase {width: 60%; background-color: #c921f3;}
+  .html {width: 40%; background-color: #c921f3;}
+  .css {width: 20%; background-color: #c921f3;}
+  .js {width: 60%; background-color: #c921f3;}
+  .java {width: 80%; background-color: #c921f3;}
+  .kotlin {width: 60%; background-color: #c921f3;}
+  .unity {width: 20%; background-color: #c921f3;}
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
