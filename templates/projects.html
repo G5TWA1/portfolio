@@ -1,19 +1,38 @@
-{% extends "layout.html" %}
-  {% block main %}
-  <div class="content_container">
-      <br><br>
-      <h1>PROJECTS</h1>
-      
-      <br><br>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" type='text/css' href="{{url_for('static', filename='style.css') }}">
+</head>
+<body>
 
-      <h2>Nonic</h2>
-      <p><br>NONIC is an Android and iOS app that helps you connect to people around you using the magic of questioning.<br><br><strong>Question & answer:</strong> Ask questions to people you love or are interested in. You can choose to ask publicly or anonymously.<br><br>Have fun We filter the questions people ask you so you only have to worry about answering the most relevant questions.<br><br>Due to release this summer for Android and iOS devices.</p>
+<ul class="menu_container">
+<br><br><br><br><br><br><br><br><br>
+  <li><a href="{{url_for('index')}}">Home</a></li>
+  <li><a href="{{url_for('experience')}}">Experience</a></li>
+  <li><a class="active" href="{{url_for('projects')}}">Projects</a></li>
+  <li><a href="{{url_for('contacts')}}">Contact</a></li>
+  <br><br><br><br><br><br><br><br><br>
+</ul>
 
-      <img class="nonic" src="{{ url_for('static', filename="nonic.png") }}" alt="Nonic">
-      <br><br><br>
-      <h2>Contracapa</h2>
-      <p class="animate__animated animate__slideInUp"><br>Contracapa is a web-based platform that provides a digital library with over 100 books.<br><br>Our propose is to offer books free of cost to those who are unable to get them and to encourage reading, the publications available are in public domain so there’s no copyright Issues, because of that Contracapa is and always will be a free service.</p>
-      <img class="contracapa" src="{{ url_for('static', filename="contracapa.jpg") }}" alt="Contracapa">
-      <br><br><br><br><br><br><br><br><br><br><br><br>
-      </div>
-    {% endblock %}
+<div class="content_container">
+  <br><br>
+  <h1>PROJECTS</h1>
+  
+  <br><br>
+
+  <h2>Nonic</h2>
+  <p><br>NONIC is an Android and iOS app that helps you connect to people around you using the magic of questioning.<br><br><strong>Question & answer:</strong> Ask questions to people you love or are interested in. You can choose to ask publicly or anonymously.<br><br>Have fun We filter the questions people ask you so you only have to worry about answering the most relevant questions.<br><br>Due to release this summer for Android and iOS devices.</p>
+
+  <img class="nonic" src="{{ url_for('static', filename="nonic.png") }}" alt="Nonic">
+  <br><br><br>
+  <h2>Contracapa</h2>
+  <p class="animate__animated animate__slideInUp"><br>Contracapa is a web-based platform that provides a digital library with over 100 books.<br><br>Our propose is to offer books free of cost to those who are unable to get them and to encourage reading, the publications available are in public domain so there’s no copyright Issues, because of that Contracapa is and always will be a free service.</p>
+  <img class="contracapa" src="{{ url_for('static', filename="contracapa.jpg") }}" alt="Contracapa">
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+
+</body>
+</html>
