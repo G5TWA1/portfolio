@@ -119,10 +119,6 @@ img.contacts{
   --animate-duration: 2s;
 }
 
-p.animate__animated p.animate__slideInUp{
-  --animate-delay: 500s;
-}
-
 .container {
   width: 90%;
   background-color: #ddd;
